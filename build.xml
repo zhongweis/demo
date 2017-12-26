@@ -11,6 +11,7 @@
     <property name="tests.dir" value="tests" />
     <fileset id="demo.tar.gz" dir=".">
         <include name="*"/>
+	<exclude name="build.xml" />
     </fileset>
      <target name="check" description="Check variables">
         <fail unless="version" message="Version not defined!" />
