@@ -11,6 +11,7 @@
     <property name="tests.dir" value="tests" />
     <fileset id="demo.tar.gz" dir=".">
         <include name="*"/>
+	<include name="application/*"/>
 	<exclude name="build.xml" />
 	<exclude name="dist/"/>
     </fileset>
